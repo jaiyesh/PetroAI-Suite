@@ -1,0 +1,72 @@
+{
+  "project_name": "Gas Lift and Choke Optimization",
+  "creation_date": "2025-07-05T23:53:11.643405",
+  "description": "Machine Learning-based optimization for petroleum production systems",
+  "models": {
+    "gas_lift": {
+      "algorithm": "Random Forest Regressor",
+      "features": [
+        "gas_injection_rate",
+        "wellhead_pressure",
+        "reservoir_pressure",
+        "water_cut",
+        "gor",
+        "tubing_diameter",
+        "well_depth"
+      ],
+      "target": "oil_production",
+      "trained": true
+    },
+    "choke": {
+      "algorithm": "Gradient Boosting Regressor",
+      "features": [
+        "choke_size",
+        "upstream_pressure",
+        "downstream_pressure",
+        "glr",
+        "fluid_density",
+        "temperature",
+        "viscosity"
+      ],
+      "target": "flow_rate",
+      "trained": true
+    }
+  },
+  "datasets": {
+    "gas_lift": {
+      "samples": 1500,
+      "features": [
+        "gas_injection_rate",
+        "wellhead_pressure",
+        "reservoir_pressure",
+        "water_cut",
+        "gor",
+        "tubing_diameter",
+        "well_depth",
+        "oil_production"
+      ],
+      "target_range": [
+        10.0,
+        754.371981363536
+      ]
+    },
+    "choke": {
+      "samples": 1500,
+      "features": [
+        "choke_size",
+        "upstream_pressure",
+        "downstream_pressure",
+        "glr",
+        "fluid_density",
+        "temperature",
+        "viscosity",
+        "flow_rate"
+      ],
+      "target_range": [
+        10.0,
+        1398.4195040954066
+      ]
+    }
+  },
+  "optimization_runs": []
+}

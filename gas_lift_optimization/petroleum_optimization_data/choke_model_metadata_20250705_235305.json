@@ -1,0 +1,26 @@
+{
+  "r2_score": 0.8763652043183809,
+  "mse": 4044.4496488943105,
+  "mae": 46.31443543624834,
+  "best_params": {
+    "learning_rate": 0.05,
+    "max_depth": 5,
+    "min_samples_leaf": 2,
+    "min_samples_split": 5,
+    "n_estimators": 200
+  },
+  "feature_importance": {
+    "choke_size": 0.5272162144809939,
+    "upstream_pressure": 0.13882767727703565,
+    "downstream_pressure": 0.013522634166379157,
+    "glr": 0.05977962337674631,
+    "fluid_density": 0.01853954396711238,
+    "temperature": 0.02518557289269206,
+    "viscosity": 0.21692873383904057
+  },
+  "training_date": "2025-07-05T23:53:05.748313",
+  "data_shape": [
+    1500,
+    7
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "r2_score": 0.8981998524169469,
+  "mse": 3592.2497406172806,
+  "mae": 45.75404238409996,
+  "best_params": {
+    "max_depth": 20,
+    "min_samples_leaf": 2,
+    "min_samples_split": 2,
+    "n_estimators": 200
+  },
+  "feature_importance": {
+    "gas_injection_rate": 0.5451922471601036,
+    "wellhead_pressure": 0.026066926250259456,
+    "reservoir_pressure": 0.2675907032435462,
+    "water_cut": 0.08455286136945458,
+    "gor": 0.028669714559812674,
+    "tubing_diameter": 0.012684091156823623,
+    "well_depth": 0.03524345625999986
+  },
+  "training_date": "2025-07-05T23:50:04.908702",
+  "data_shape": [
+    1500,
+    7
+  ]
+}
